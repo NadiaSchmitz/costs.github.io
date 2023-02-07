@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+ <html lang="de">
+ <head>
+ <title>Farbspiel</title>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <link rel="stylesheet" href="style.css" type="text/css" />
+ <link rel="stylesheet" href="reset.css" type="text/css" />
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+ </head>
+
+ <body>
+
+ <div id="container">
+    <div class="costs_wrapper">
+        <h1 class="costs_header">Kostenrechner</h1>
+        <div class="costs_content">
+            <div class="form_wrapper">
+                <span class="form_table_head"></span>
+                <span class="form_table_head">Artikel</span>
+                <span class="form_table_head">Preis in Euro</span>
+                <span class="form_table_head">Anzahl</span>
+                <span class="form_table_head">Betrag in Euro</span>
+                <form action="">
+                    <div class="form_item item_1">
+                        <input type="checkbox" data-check="1">
+                        <select name="" id="" data-select="1" disabled>
+                            <option value=""></option>
+                            <option value="schampoo">Schampoo</option>
+                            <option value="zahnpasta">Zahnpasta</option>
+                            <option value="deodorant">Deodorant</option>
+                            <option value="seife">Seife</option>
+                            <option value="creme">Creme</option>
+                        </select>
+                        <input type="text" data-prise="1">
+                        <input type="text" data-number="1">
+                        <input type="text" data-sum="1">
+                    </div>
+                    <div class="form_item item_2">
+                        <input type="checkbox" data-check="2">
+                        <select name="" id="" data-select="2" disabled>
+                            <option value=""></option>
+                            <option value="schampoo">Schampoo</option>
+                            <option value="zahnpasta">Zahnpasta</option>
+                            <option value="deodorant">Deodorant</option>
+                            <option value="seife">Seife</option>
+                            <option value="creme">Creme</option>
+                        </select>
+                        <input type="text" data-prise="2">
+                        <input type="text" data-number="2">
+                        <input type="text" data-sum="2">
+                    </div>
+                    
+                    <div class="form_sum">
+                        <input type="text" id="sum">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="costs.js"></script>
+</body>
